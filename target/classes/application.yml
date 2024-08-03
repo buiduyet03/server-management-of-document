@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: OcrSerach
+  data:
+    cassandra:
+      contact-points: 172.16.10.82:9042, 172.16.10.83:9042
+      local-datacenter: DC_HDDT
+      username: cassandra
+      password: cassandra
+server:
+  port: 8080
